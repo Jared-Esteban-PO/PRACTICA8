@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+  
+</head>
+<body background="img/beige.avif">
+    <h1>Contacto</h1>
+    
+    
+    <iframe src="https://www.google.com/maps/dir//McDonald's+%5BPlaza+Las+Am%C3%A9ricas%5D,+5Ta.+Poniente+No.+2650+PLAZA+DEL+SOL,+Entre+libramiento+norte+y+nuevo,+Blvd.+Belisario+Dom%C3%ADnguez,+29020+Tuxtla+Guti%C3%A9rrez,+Chis./@16.7611293,-93.1478467,15z/data=!3m1!5s0x85ecd91adb2dbfa3:0x161599c984b7ab50!4m8!4m7!1m0!1m5!1m1!1s0x85ecd91d008d753b:0x658716df1da87fa1!2m2!1d-93.1399846!2d16.7618538?entry=ttu" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+    <!-- Información de Contacto -->
+    <h2>Información de Contacto</h2>
+    <p><strong>Dirección:</strong> 5Ta. Poniente No. 2650 PLAZA DEL SOL, Entre libramiento norte y nuevo, Blvd. Belisario Domínguez, 29020 Tuxtla Gutiérrez, Chis.</p>
+    <p><strong>Correo Electrónico:</strong> McDonad.Deliveriry@gmail.com</p>
+    <p><strong>Teléfono:</strong> +123 456 789</p>
+    <p><strong>Nombre del Dueño:</strong> Ronald Macdonlad</p>
+
+    <h2>Formulario de Contacto</h2>
+    <form action="procesar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required><br>
+
+        <label for="correo">Correo Electrónico:</label>
+        <input type="email" id="correo" name="correo" required><br>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+    <table>
+        <center><a href="index.html">Regresar Al Inicio</a></center>
+    </table>
+</body>
+</html>
